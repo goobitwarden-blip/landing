@@ -7,27 +7,30 @@
     body {
     margin: 0;
     font-family: -apple-system, Arial, sans-serif;
+    background: #ffffff;
   }
     .nav {
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 16px 32px;
-      background: #0d1117;
-      color: #ffffff;
+      background: #ffffff;
+      color: #000000;
     }
     .nav-right {
       display: flex;
       align-items: center;
       gap: 28px;
+      
     }
     .logo { font-weight: 700; font-size: 20px; }
     .nav-link {
-      color: #b0b8c0;
+      color: #5c5858;
       text-decoration: none;
       font-size: 15px;
+      
     }
-    .nav-link:hover { color: #ffffff; }
+    .nav-link:hover { color: #000000; }
     .cta {
       background: #3b82f6;
       color: #ffffff;
@@ -60,6 +63,21 @@
         max-width: 600px;
         margin: 0 0 32px;
     }   
+    .cards {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 40px 20px;
+        background: #ffffff;
+    }
+    .card {
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        width: 300px; 
+        text-align: center;
+        border: 1px solid #e1e8ed;
+    }
   </style>
 </head>
 <body>
@@ -75,6 +93,20 @@
             <h1>Реальные результаты</h1>
             <p>Мы помогаем бизнесам достигать своих целей с помощью эффективных рекламных стратегий и решений.</p>
             <a href="#" class="cta">Начать</a>
+        </section>
+        <section class="cards">
+            <div class="card">
+                <h3>Влиятельная аудитория</h3>
+                <p>Ваша реклама увидит аудиторию, которая задаёт тренды и принимает решения о покупках.</p>
+            </div>
+            <div class="card">
+                <h3>Точное таргетирование</h3>
+                <p>Показывайте объявления людям по интересам, ключевым словам и поведению</p>
+            </div>
+            <div class="card">
+                <h3>Понятная аналитика</h3>
+                <p>Отслеживайте результаты в реальном времени и оптимизируйте кампании на ходу.</p>
+            </div>
         </section>
         
 </body>
