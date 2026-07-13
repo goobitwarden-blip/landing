@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+  <title>Клон</title>
+  <style>
+    body {
+    margin: 0;
+    font-family: -apple-system, Arial, sans-serif;
+  }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 32px;
+      background: #0d1117;
+      color: #ffffff;
+    }
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+    }
+    .logo { font-weight: 700; font-size: 20px; }
+    .nav-link {
+      color: #b0b8c0;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .nav-link:hover { color: #ffffff; }
+    .cta {
+      background: #3b82f6;
+      color: #ffffff;
+      padding: 16px 32px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .cta.small { padding: 10px 20px; font-size: 15px; }
+    .hero {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: #0d1117;
+        color: #ffffff;
+        padding: 20px;
+    }
+    .hero h1 {
+        font-size: 48px;
+        max-width: 800px;
+        margin: 0 0 20px;
+    }
+    .hero p {
+        font-size: 20px;
+        color: #b0b8c0;
+        max-width: 600px;
+        margin: 0 0 32px;
+    }   
+  </style>
+</head>
+<body>
+    <nav class="nav">
+  <div class="logo">X Ads</div>
+  <div class="nav-right">
+    <a href="#" class="nav-link">Решения</a>
+    <a href="#" class="nav-link">Ресурсы</a>
+    <a href="#" class="cta small">Начать</a>
+  </div>
+</nav>
+        <section class="hero">
+            <h1>Реальные результаты</h1>
+            <p>Мы помогаем бизнесам достигать своих целей с помощью эффективных рекламных стратегий и решений.</p>
+            <a href="#" class="cta">Начать</a>
+        </section>
+        
+</body>
+    </html>
