@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Первый лендос</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
         body {
         margin: 0;
@@ -55,9 +56,31 @@
         max-width: 300px;
         color: #ffffff;
         }
+        .final {
+        display: flex;
+        gap: 24px;
+        flex-direction: column;
+        text-align: center; 
+        align-items: center;
+        justify-content: center;
+        padding: 200px 50px;    
+        background: #0d1117;
+        color: #ffffff;
+        }
+    .final h2, .final p { margin: 0; }
     .card h3 { font-size: 20px; margin: 0 0 10px; }
     .card p { color: #b0b8c0; font-size: 15px; line-height: 1.5; margin: 0; }
     .cta:hover { background: #2563eb; }
+
+    @media (max-width: 600px) {
+    .hero h1 { font-size: 32px; }
+    .hero p { font-size: 16px; }
+    .card h3 { font-size: 18px; } 
+    .benefits { flex-direction: column; }
+    .card { max-width: 100%; }
+    .final { font-size: 16px; }
+    }
+
     </style>
     </head>
     <body>
@@ -79,6 +102,11 @@
             <h3>Результат за неделю</h3>
             <p>Видимые результаты уже через неделю обучения.</p>
       </div>
+    </section>
+    <section class="final">
+        <h2>Готов начать?</h2>
+        <p>Присоединяйся к нашему курсу и начни свой путь к успеху уже сегодня!</p>
+        <a href="#" class="cta">Перейти в тг канал</a>
     </section>
     </body>
     </html>
